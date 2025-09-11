@@ -1,0 +1,5 @@
+// pages/_home.scss
+@use '../abstracts/mixins' as m;
+
+.hero .display-4 { @include m.fluid-text(2rem, 3rem); animation: fade-in .7s ease both; }
+@keyframes fade-in { from{ opacity:0; transform: translateY(8px);} to { opacity:1; transform: translateY(0);} }

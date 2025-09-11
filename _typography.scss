@@ -1,0 +1,13 @@
+// base/_typography.scss
+@use '../abstracts/variables' as *;
+
+body {
+  font-family: $font-base;
+  background-color: $color-dark;
+  color: $color-text;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 { color: $color-primary; }
+p { max-width: 60ch; margin: 0 auto 1.5rem; }
