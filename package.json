@@ -1,0 +1,12 @@
+{
+  "name": "bar80s-entrega3-final",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass src/scss/main.scss dist/css/main.css --no-source-map --style=compressed",
+    "sass:watch": "sass --watch src/scss/main.scss dist/css/main.css --no-source-map --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

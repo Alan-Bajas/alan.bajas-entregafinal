@@ -1,0 +1,21 @@
+// main.scss – punto de entrada
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/utilities';
+
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/sections';
+
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/navbar';
+
+@use 'pages/home';
+@use 'pages/promociones';
+@use 'pages/carta';
+@use 'pages/eventos';
+@use 'pages/nosotros';

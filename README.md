@@ -1,56 +1,27 @@
-# alan.bajas-entregafinal
-Entrega 3 – Proyecto Web “Bar 80’s”
-Descripción
+# Bar 80s – Entrega 3 (FINAL)
 
-Este es mi proyecto final del curso de Desarrollo Web. Hice un sitio para Bar 80’s con 5 páginas:
+Este paquete contiene:
+- 5 páginas HTML actualizadas (con clases `hero`, `promos`, `carta`, `eventos`, `nosotros` y `dist/css/main.css` linkeado).
+- SCSS con arquitectura 7–1 en `src/scss/` (variables, mixins, base, layout, components, pages).
+- `dist/css/main.css` ya listo para subir (se sobreescribe cuando compiles SASS).
+- `.gitignore`, `package.json` (scripts de build) y este `README.md`.
 
-Inicio
-Promociones
-Carta
-Eventos
-Nosotros
+## Cómo compilar SCSS
+```bash
+npm install
+npm run sass
+```
+Compila `src/scss/main.scss` → `dist/css/main.css`.
 
-La idea fue aplicar todo lo aprendido: HTML, CSS/SCSS, Bootstrap y diseño responsive.
-Lo que hice según la rúbrica
-HTML
+## Subir a GitHub + GitHub Pages
+1. Crea repo público y sube estos archivos (excepto `node_modules/`).
+2. Commits claros (setup, html, scss, responsive, etc.).
+3. Activa Pages: Settings → Pages → Deploy from branch (main, /root).
+4. Verifica que el sitio cargue y aplique `dist/css/main.css`.
 
-Usé etiquetas semánticas como header, nav, main, section, footer.
-Revisé que las imágenes tengan alt y que los enlaces funcionen entre todas las páginas.
-Traté de mantener el código ordenado e indentado igual en todas las secciones.
-CSS y SCSS
-Pasé mis estilos a SCSS con la arquitectura 7–1 (carpetas de variables, mixins, base, layout, componentes y páginas).
-Usé variables para colores (dorado y negro), tipografía y breakpoints.
-Hice mixins para botones, media queries y tipografía fluida.
-Apliqué nesting y usé @use en lugar de @import.
-
-Estilos y diseño
-
-Mantengo una paleta dorado/negro y tipografía Montserrat.
-Agregué animaciones y transiciones
-efecto fade-in en el hero de la página de inicio,
-hover en las tarjetas y botones.
-
-El sitio es responsive con Bootstrap (grillas y flexbox) más algunos mixins propios.
-
-Responsive
-Usé diseño mobile-first.
-Tipografía y tamaños con clamp, rem y %.
-Probado en celular, laptop y desktop.
-
-Git y GitHub
-Creé el repositorio, hice commits con los avances y subí todo (menos node_modules, que está en .gitignore).
-Deploy con GitHub Pages para que se pueda ver online.
-
-Cosas de optimización
-Optimicé las imágenes.
-
-El CSS final está en dist/css/main.css, que se genera con npm run sass.
-
-Checklist final
-
- HTML limpio y semántico
- SCSS con 7–1 y mixins
- Animaciones y transiciones
- Responsive en distintos dispositivos
- Repo en GitHub con commits
- GitHub Pages funcionando
+## Checklist
+- HTML semántico; `alt` descriptivos; rutas relativas correctas.
+- SCSS con variables, mixins, nesting y `@use` (arquitectura 7–1).
+- Transiciones/animaciones y hover en elementos destacados.
+- Responsive usando Grid/Flex (Bootstrap como base).
+- Repo público + historial de commits + URL de Pages funcional.
