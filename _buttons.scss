@@ -1,0 +1,4 @@
+// components/_buttons.scss
+@use '../abstracts/mixins' as m;
+
+.btn-cta { @include m.btn(); }

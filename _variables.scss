@@ -1,0 +1,21 @@
+// abstracts/_variables.scss
+// Paleta y tipografías
+$color-primary: #d4af37;
+$color-dark: #0f0f0f;
+$color-dark-2: #1a1a1a;
+$color-text: #ffffff;
+$color-muted: #cccccc;
+
+// Tipografía
+$font-base: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+
+// Espaciados y radios
+$radius-pill: 30px;
+$radius-lg: 1rem;
+$shadow-soft: 0 10px 30px rgba(0,0,0,.2);
+
+// Breakpoints (mobile first)
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
